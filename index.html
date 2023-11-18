@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- link to css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Manashi Shah</title>
+    <!-- importing google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- This is internal style for experience cards -->
+    <style>
+        .card {
+            /* border: 1px solid #E71D36; */
+            width: 20%;
+            box-shadow: 0px 0px 3px 0px #a5a5a5;
+            padding: 1rem 0;
+            /* 1rem = 16px */
+            transition: background-color 0.5s;
+            border-radius: 5px;
+        }
+
+        .card:hover {
+            background-color: lightgray;
+        }
+
+        .experience-content {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 3rem;
+        }
+
+        .card p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- This is navigation bar -->
+    <header>
+        <nav>
+            <!-- unordered list for navigation menu-->
+            <ul>
+                <li> <a class="navigation-menu" href="#home">Home</a></li>
+                <li> <a class="navigation-menu" href="#about">About</a></li>
+                <li> <a class="navigation-menu" href="#education">Education</a></li>
+                <li> <a class="navigation-menu" href="#experience">Experience</a></li>
+                <li> <a class="navigation-menu" href="#skills">Skills</a></li>
+                <li> <a class="navigation-menu" href="#blogs">Blog</a></li>
+                <li> <a class="navigation-menu" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- The main section of the page starts from here -->
+    <main>
+        <section id="home">
+            <!--This is for the hero section of the page-->
+            <div class="hero-section">
+                <img src="./assets/images/hero-designer.png" style="height: 100vh;" alt="" />
+            </div>
+            <div class="hero-section">
+                <h3>Hello I'm</h3>
+                <h1 id="hero-heading">Manashi Shah</h1>
+                <h2>UI/UX Designer and Front-End Developer</h2>
+            </div>
+        </section>
+        <hr>
+
+
+        <section id="about">
+            <!--This section is for personal information / about me-->
+            <h1 class="center section-headings">About Me</h1>
+
+
+            <div class="about-content">
+                <div style="width: 70%;">
+                    <p>As a UI/UX designer, I have a strong foundation in crafting engaging and
+                        user-friendly digital experiences. My journey in design began with a Bachelor of Information
+                        Management from St. Xavier's College in Nepal in 2018. However, my passion for creating seamless
+                        and
+                        visually appealing interfaces led me to further my education. I recently completed a
+                        Postgraduate
+                        Certificate in Digital Product Design at Sheridan College in Oakville, Canada, in 2023, where I
+                        honed my skills and embraced cutting-edge design principles. <strong>Currently, I'm pursuing Web
+                            Development
+                            and Front-End Design at George Brown College in Toronto, seeking to bridge the gap between
+                            design
+                            and development.</strong> With three years of hands-on experience as a Junior Front-End
+                        Developer and
+                        Designer, I am committed to delivering innovative solutions.
+
+                    </p>
+                    <aside>Outside of work, I find solace in the
+                        world of music & books and express my creativity through the intricate art of mandala drawing.
+                    </aside>
+                    <details>
+                        <summary>Fun Fact</summary>
+                        <p>People call me a walking jukebox when it comes to singing.</p>
+                    </details>
+                </div>
+
+                <div style="width:30%;">
+                    <img src="./assets/images/me.jpg" height="350" width="350"
+                        style="object-fit: cover; border-radius: 50%;" alt="" />
+                </div>
+
+            </div>
+
+
+        </section>
+        <hr>
+
+        <!-- This section is for education background -->
+
+        <section id="education">
+            <h1 class="center section-headings">Education</h1>
+
+            <div class="education-content">
+                <div style="width: 30%;">
+                    <h4>2014 - 2018</h4>
+                    <h3>Bachelor of Information Management</h3>
+                    <div class="horizontal-line">
+
+                    </div>
+                    <h3>St. Xavier's College</h3>
+                    <h4>Kathmandu, Nepal</h4>
+                    <p>During my bachelor's program, I studied a wide range of subjects related to information
+                        technology, along with several courses in management.
+
+                    </p>
+                </div>
+
+                <div style="width: 30%;">
+                    <h4>2022 - 2023</h4>
+                    <h3>Digital Product Design</h3>
+                    <div class="horizontal-line">
+
+                    </div>
+                    <h3>Sheridan College</h3>
+                    <h4>Oakville, Canada</h4>
+                    <p>
+                        During my postgraduate program, I acquired skills in user research, user testing, user
+                        experience design, strategy, and user interface design.
+                    </p>
+                </div>
+
+                <div style="width: 30%;">
+                    <h4>Ongoing</h4>
+                    <h3>Web Development - Front End Design </h3>
+                    <div class="horizontal-line">
+
+                    </div>
+                    <h3>George Brown College</h3>
+                    <h4>Waterfront, Canada</h4>
+                    <p>In my current program at George Brown College, I'm mastering human-centered design for creating
+                        industry-standard websites and apps with a focus on effective code and responsible design.
+                    </p>
+                </div>
+
+            </div>
+
+
+        </section>
+        <hr>
+
+        <!-- This section is for experience background -->
+
+        <section id="experience">
+            <h1 class="center section-headings">Experience</h1>
+            <p class="center" style="margin-bottom: 3rem;">With an experience in UI/UX design, complemented by my role as
+                a<br>
+                student ambassador, and my background in front-end design, I possess a versatile skill set geared
+                toward<br>
+                creating exceptional digital experiences.</p>
+
+            <div class="experience-content">
+                <div class="card center">
+                    <!--dont forget to add alt-->
+                    <img width="50" src="./assets/images/ui-ux.png" />
+                    <p>UI/UX Design</p>
+                </div>
+                <div class="card center">
+                    <img width="50" src="./assets/images/web-design.png" />
+                    <p>Web Design</p>
+
+                </div>
+                <div class="card center">
+                    <img width="50" src="./assets/images/app-design.png" />
+                    <p>App Design</p>
+                </div>
+                <div class="card center">
+                    <img width="50" src="./assets/images/management.png" />
+                    <p>Management</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- This section is to show the skillset -->
+        <section id="skills">
+            <h1 class="center section-headings">Skills</h1>
+            <div class="skills-content">
+
+                <div style="width: 45%;">
+                    <p>UI/UX Design</p>
+                    <div class="skill-horizontal-line">
+                        <div class="skill-percentage" style="width: 90%;"></div>
+                    </div>
+                    <p>Web Design</p>
+                    <div class="skill-horizontal-line">
+                        <div class="skill-percentage" style="width: 70%;"></div>
+                    </div>
+
+                </div>
+
+                <div style="width: 45%;">
+                    <p>App Design</p>
+                    <div class="skill-horizontal-line">
+                        <div class="skill-percentage" style="width: 95%;"></div>
+                    </div>
+                    <p>Management</p>
+                    <div class="skill-horizontal-line">
+                        <div class="skill-percentage" style="width: 85%;"></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+        <hr>
+
+        <!-- This section is to show the blogs using article element -->
+        <section id="blogs">
+            <h1 class="center section-headings">My Favorite Blogs</h1>
+            <div class="blogs-content">
+                <article class="blog-post">
+                    <!-- dont forget to add alt-->
+                    <figure><img src="./assets/images/article-1.jpg" width="100%" height="200" /></figure>
+                    <div class="blog-padding">
+                        <h5>Digital Product Design</h5>
+                        <h6>Posted by: Vadim Grin</h6>
+                        <p>In this article the author shares the insights he had that helped him become a demanded
+                            expert in product design.
+                        </p> <a
+                            href="https://uxdesign.cc/8-things-you-need-to-know-to-become-a-successful-digital-product-designer-e64f50a76eec"
+                            target="_blank">Read More...</a>
+                    </div>
+
+
+
+                </article>
+
+                <article class="blog-post">
+                    <figure><img src="./assets/images/article-2.jpg" width="100%" height="200" /></figure>
+                    <div class="blog-padding">
+                        <h5>UX Career</h5>
+                        <h6>Posted by: Ricardo Hernández Pérez</h6>
+                        <p>The author shares tips to help you distinguish yourself from other applicants and pave the
+                            way for a successful career in UX.
+                        </p><a
+                            href="https://bootcamp.uxdesign.cc/becoming-a-ux-designer-in-2023-is-not-easy-733a8a90d9e8"
+                            target="_blank">Read More...</a>
+                    </div>
+
+
+                </article>
+
+                <article class="blog-post">
+                    <figure><img src="./assets/images/article-3.jpg" width="100%" height="200" /></figure>
+                    <div class="blog-padding">
+                        <h5>Design Case Study</h5>
+                        <h6>Posted by: Vasil Nedelchev</h6>
+                        <p>Here, he discusses the challenges, limitations, and potential solutions related to writing
+                            case studies in the context of UI/UX design.
+                        </p><a
+                            href="https://medium.com/weareevermore/how-to-write-good-content-as-a-mediocre-ui-ux-designer-design-case-study-f299fcdb199d"
+                            target="_blank">Read More...</a>
+                    </div>
+
+                </article>
+            </div>
+
+        </section>
+
+
+        <!-- This section is for contact information -->
+        <section id="contact">
+            <h1 class="center" id="contact-heading">Contact</h1>
+            <div class="contact-content">
+                <div style="width: 60%; padding: 0 20px;">
+                    <h1>Get In Touch</h1>
+                    <form>
+                        <input style="width: 100% ;" type="text" placeholder="Enter your email" />
+                        <input style="width: 100% ;" type="text" placeholder="Enter your name" />
+                        <textarea style="width: 100%;" placeholder="Message"></textarea>
+                        <button>Send Message</button>
+
+                    </form>
+
+                </div>
+                <div style="width: 40% ; padding: 0 20px;">
+                    <h2><img width="30" src="./assets/images/location.png" />Location</h2>
+                    <p>Downtown, Toronto</p>
+
+                    <hr>
+
+                    <h2><img width="30" src="./assets/images/smartphone.png" />Phone Number</h2>
+                    <p>+1 437 XXX XXXX</p>
+
+                    <hr>
+
+                    <h2><img width="30" src="./assets/images/mail.png" />Email Address</h2>
+                    <p>101420562@georgebrown.ca</p>
+
+                    <hr>
+                </div>
+            </div>
+
+        </section>
+
+
+
+    </main>
+    <!-- This is the end of main section -->
+
+    <!-- The footer of the page begins from here -->
+    <footer>
+
+        <div>
+            <img src="./assets/images/hero-designer.png" width="200" />
+            <p style="color: white;">Manashi Shah © 2023. All Rights Reserved.</p>
+        </div>
+        <ul>
+            <li> <a class="navigation-menu" href="#home">Home</a></li>
+            <li> <a class="navigation-menu" href="#about">About</a></li>
+            <li> <a class="navigation-menu" href="#education">Education</a></li>
+            <li> <a class="navigation-menu" href="#experience">Experience</a></li>
+            <li> <a class="navigation-menu" href="#skills">Skills</a></li>
+            <li> <a class="navigation-menu" href="#blogs">Blog</a></li>
+            <li> <a class="navigation-menu" href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Using ordered list to show the reference sites -->
+        <ol>
+            <li>Images are from <a href="https://www.freepik.com" target="_blank">Freepik</a></li>
+            <li>Fonts are from <a href="https://fonts.google.com/" target="_blank">Google</a></li>
+            <li>Colors are from <a href="https://coolors.co" target="_blank">Coolors</a></li>
+        </ol>
+
+    </footer>
+
+</body>
+
+</html>
